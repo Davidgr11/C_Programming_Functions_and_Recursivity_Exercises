@@ -1,7 +1,6 @@
 /*#include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-//Cervantes Figueroa Angelica
 
 struct Categoria
 {
@@ -113,7 +112,7 @@ struct Producto agregar(struct Producto producto[],int total,int cont[5])
             cont[3]++;
             printf("\nIngresa el mes de vencimiento en formato mm:\t");
             scanf("%d",&tmp.categoria.mes);
-            printf("\nIngresa el año de vencimiento en formato aaaa:\t");
+            printf("\nIngresa el aÃ±o de vencimiento en formato aaaa:\t");
             scanf("%d",&tmp.categoria.ao);
             printf("\nIngresa el numero de pasillo:\t");
             scanf("%d",&tmp.categoria.pasillo);
